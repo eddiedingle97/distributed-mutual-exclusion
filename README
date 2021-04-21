@@ -1,0 +1,18 @@
+1. compile
+
+Compile by typing "make" in the directory the Makefile is in. This will compile the client and server programs.
+
+2. run
+
+Run the commands as such, noting that X Y and Z are variable standins for an actual number. Type each command on a different host and in chronological order.
+
+run "./server 0" on host dcX
+run "./server 1" on host dcY
+run "./server 2" on host dcZ
+run "./client 0 dcX dcY dcZ" on another machine
+run "./client 1 dcX dcY dcZ" on another machine
+run "./client 2 dcX dcY dcZ" on another machine
+run "./client 3 dcX dcY dcZ" on another machine
+run "./client 4 dcX dcY dcZ" on another machine
+
+After the last command is typed, you should see alot of output coming from each terminal. At the end, each file will be populated with numbers. They should be the same across directories.
